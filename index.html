@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- w3s -->
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- css -->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="nav">
+      <div class="container-nav">
+        <div class="logo-kiri">
+          <a href="">
+            <img src="image.png" alt="" />
+          </a>
+        </div>
+        <div class="tengah">
+          <a href="" class="ahome">
+            <i data-feather="home"></i>
+          </a>
+          <div class="box-input">
+            <a href="" class="asearch">
+              <i data-feather="search" class="search"></i>
+            </a>
+            <input
+              type="text"
+              class="input"
+              placeholder="Apa yang ingin kamu putar?"
+            />
+            <a href="" class="ashopp">
+              <i data-feather="shopping-bag" class="shopp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="kanan">
+          <div class="daftar">
+            <a href="">Daftar</a>
+          </div>
+          <div class="masuk">
+            <a href="">Masuk</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="aside">
+      <div class="container-aside">
+        <nav class="atas">
+          <div class="container-navbar">
+            <div class="garis-playlist">
+              <div class="garis1"></div>
+              <div class="garis2"></div>
+              <div class="garis3"></div>
+              <a href="" class="kolek">Koleksi Kamu</a>
+            </div>
+            <div class="atas-kanan">
+              <a href=""><i data-feather="plus"></i></a>
+            </div>
+          </div>
+        </nav>
+        <main class="main-kiri">
+          <div class="container-main">
+            <div class="atas-main">
+              <p class="satu">Buat playlist pertamamu</p>
+              <p class="dua">Caranya mudah, kami akan membantumu</p>
+              <div class="buat"><a href="">Buat playlist</a></div>
+            </div>
+            <div class="bawah-main">
+              <p class="satu">Ayo cari beberapa podcast untuk diikuti</p>
+              <p class="dua">
+                Kami akan terus mengabarimu tentang episode baru
+              </p>
+              <div class="buat"><a href="">Jelajahi podcast</a></div>
+            </div>
+          </div>
+        </main>
+        <div class="footer">
+          <div class="faq">
+            <a href="">Hukum</a>
+            <a href="">Pusat Keamanan & Privasi</a>
+            <a href="">Kebijakan Privasi</a>
+            <a href="">Cookie</a>
+            <a href="">Tentang Iklan</a>
+            <a href="">Aksesbilitas</a>
+            <br />
+            <a href="" class="cookie">Cookie</a>
+          </div>
+          <div class="bahasa">
+            <a href=""
+              ><i data-feather="globe" class="globee"></i>Bahasa Indonesia</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <main class="main-kanan">
+        <div class="container-main-kanan">
+          <div class="clearfix">
+            <h2 class="float-kiri">Artis populer</h2>
+            <a href="" class="float-kanan">Tampilkan semua</a>
+          </div>
+          <div class="artis-atas">
+            <div class="card-artis">
+              <img src="./img/bernadya.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p>Bernadya</p>
+                <span>Artis</span>
+              </div>
+            </div>
+            <div class="card-artis">
+              <img src="./img/tulus.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p>Tulus</p>
+                <span>Artis</span>
+              </div>
+            </div>
+            <div class="card-artis">
+              <img src="./img/juicy.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p>Juicy Luicy</p>
+                <span>Artis</span>
+              </div>
+            </div>
+            <div class="card-artis">
+              <img src="./img/last-child.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p class="p">Last Child</p>
+                <span class="span">Artis</span>
+              </div>
+            </div>
+            <div class="card-artis">
+              <img src="./img/mahalini.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p class="p">Mahalini</p>
+                <span class="span">Artis</span>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix">
+            <h2 class="float-kiri">Album dengan single populer</h2>
+            <a href="" class="float-kanan">Tampilkan semua</a>
+          </div>
+          <div class="artis-atas">
+            <div class="card-artis2">
+              <img src="./img/bernadya2.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p>
+                  Sialnya, hidup <br />
+                  harus tetap
+                </p>
+                <span>Bernadya</span>
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/hindia.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p>Menari dengan <br />bayangan</p>
+                <span>Hindia</span>
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/juicy2.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p>Nonfiksi</p>
+                <span>Juicy Luicy</span>
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/fabula.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p class="p">fábula</p>
+                <span class="span">Mahalini</span>
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/tulus2.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p class="p">Manusia</p>
+                <span class="span">Tulus</span>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix">
+            <h2 class="float-kiri">Radio populer</h2>
+            <a href="" class="float-kanan">Tampilkan semua</a>
+          </div>
+          <div class="artis-atas">
+            <div class="card-artis2">
+              <img src="./img/bernadya3.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Dengan Nadin <br />Amizah, Sal Priadi,...</p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/sheila.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">
+                  Dengan Dewa, <br />
+                  Padi Ungu dan...
+                </p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/bruno.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">
+                  Dengan Katy Perry, <br />One Direction, Ed...
+                </p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/hivi.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Dengan Jaz, Tulus, <br />RAN dan lainnya</p>
+                <!-- <span class="span">Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/dewa.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Dengan Dewa, <br />Padi, Ada Band dan...</p>
+                <!-- <span class="span">Artis</span> -->
+              </div>
+            </div>
+          </div>
+          <div class="clearfix">
+            <h2 class="float-kiri">Tangga Lagu Unggulan</h2>
+            <a href="" class="float-kanan">Tampilkan semua</a>
+          </div>
+          <div class="artis-atas">
+            <div class="card-artis2">
+              <img src="./img/global.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Pembaruan <br />mingguan track...</p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/usa.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Pembaruan <br />mingguan track...</p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/global2.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Pembaruan harian <br />track yang paling...</p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/usa2.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Pembaruan harian <br />track yang paling...</p>
+                <!-- <span class="span">Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/global3.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Pembaruan harian <br />track yang paling...</p>
+                <!-- <span class="span">Artis</span> -->
+              </div>
+            </div>
+          </div>
+          <div class="clearfix">
+            <h2 class="float-kiri">Playlist from out editors</h2>
+            <a href="" class="float-kanan">Tampilkan semua</a>
+          </div>
+          <div class="artis-atas">
+            <div class="card-artis2">
+              <img src="./img/pop.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">A perfect little pop<br />Party.</p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/christmast.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">The Biggest <br />christmast songs o...</p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/dance.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">All the big one <br />with PAWSA</p>
+                <!-- <span>Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/mint.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">The world's biggest <br />dance electroni...</p>
+                <!-- <span class="span">Artis</span> -->
+              </div>
+            </div>
+            <div class="card-artis2">
+              <img src="./img/throwback.jpg" class="gambar" alt="bernadya" />
+              <div class="play">
+                <i data-feather="play" id="play"></i>
+              </div>
+              <div class="text-bawah">
+                <p id="hitrans">Here it is, the <br />playlist for the...</p>
+                <!-- <span class="span">Artis</span> -->
+              </div>
+            </div>
+          </div>
+          <div class="footer-main-kanan">
+            <div class="container-footer-kanan">
+              <div class="footer-section">
+                <h4>Perusahaan</h4>
+                <ul>
+                  <li><a href="#">Tentang</a></li>
+                  <li><a href="#">Pekerjaan</a></li>
+                  <li><a href="#">For the Record</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-section">
+                <h4>Komunitas</h4>
+                <ul>
+                  <li><a href="#">Untuk Artis</a></li>
+                  <li><a href="#">Pengembang</a></li>
+                  <li><a href="#">Iklan</a></li>
+                  <li><a href="#">Investor</a></li>
+                  <li><a href="#">Vendor</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-section">
+                <h4>Tautan Berguna</h4>
+                <ul>
+                  <li><a href="#">Dukungan</a></li>
+                  <li><a href="#">Aplikasi Seluler Gratis</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-section">
+                <h4>Paket Spotify</h4>
+                <ul>
+                  <li><a href="#">Premium Individual</a></li>
+                  <li><a href="#">Premium Duo</a></li>
+                  <li><a href="#">Premium Family</a></li>
+                  <li><a href="#">Premium Student</a></li>
+                  <li><a href="#">Spotify Free</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- icon sosmed -->
+            <!-- <div class="footer-icons">
+              <a href="#"><i data-feather="instagram"></i></a>
+              <a href="#"><i data-feather="twitter"></i></a>
+              <a href="#"><i data-feather="facebook"></i></a>
+            </div> -->
+          </div>
+          <hr class="footer-divider" />
+          <p id="copy">&copy; 2024 Raehan Ramadhan</p>
+        </div>
+      </main>
+    </section>
+    <footer class="footer-bawah">
+      <div class="name">
+        <span style="color: white">&copy; Raehan Ramadhan | 2024</span>
+      </div>
+      <div class="ms-2">
+        <a href="" class="ms-3">Daftar Gratis</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

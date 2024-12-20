@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* nav */
+nav {
+  align-items: center;
+  padding: 0 20px;
+  background-color: black;
+  width: 100%;
+}
+
+.container-nav {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.kiri a img {
+  margin-left: 8px;
+  width: 45px;
+}
+
+.tengah {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 40px;
+  gap: 10px;
+}
+
+.tengah .a-home {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(59, 59, 59, 0.664);
+}
+
+.a-home .home {
+  position: relative;
+  font-size: 200px;
+  margin: 10px;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.logo-input {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
+  width: 700px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgba(59, 59, 59, 0.664);
+  cursor: pointer;
+}
+
+.logo-input .search,
+.logo-input .shopp {
+  width: auto;
+  height: 28px;
+  color: rgba(255, 255, 255, 0.527);
+}
+
+.input {
+  width: 350px;
+}
+
+.logo-input input {
+  flex-grow: 1;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.logo-input:hover {
+  background-color: rgba(59, 59, 59, 0.788);
+  color: #8989897f;
+}
+
+.kanan {
+  float: right;
+  display: flex;
+}
+
+.kanan a.daftar {
+  color: rgba(255, 255, 255, 0.747);
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.masuk {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
